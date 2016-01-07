@@ -1,0 +1,9 @@
+import keyMirror from 'react/lib/keyMirror';
+
+export default keyMirror({
+    GET_COUNTERS: 'GET_COUNTERS',
+    ADD_COUNTER: 'ADD_COUNTER',
+    DELETE_COUNTER: 'DELETE_COUNTER',
+    DECREMENT_COUNTER: 'DECREMENT_COUNTER',
+    INCREMENT_COUNTER: 'INCREMENT_COUNTER'
+});

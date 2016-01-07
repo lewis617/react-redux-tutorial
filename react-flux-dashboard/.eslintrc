@@ -1,0 +1,119 @@
+{
+    "ecmaFeatures": {
+        "arrowFunctions": true,
+        "binaryLiterals": false,
+        "blockBindings": true,
+        "classes": true,
+        "defaultParams": true,
+        "destructuring": true,
+        "forOf": true,
+        "generators": true,
+        "modules": true,
+        "objectLiteralComputedProperties": true,
+        "objectLiteralDuplicateProperties": false,
+        "objectLiteralShorthandMethods": true,
+        "objectLiteralShorthandProperties": true,
+        "octalLiterals": false,
+        "regexUFlag": true,
+        "regexYFlag": true,
+        "restParams": true,
+        "spread": true,
+        "superInFunctions": true,
+        "templateStrings": true,
+        "unicodeCodePointEscapes": true,
+        "globalReturn": false,
+        "jsx": true
+    },
+
+    "plugins": [
+        "react"
+    ],
+
+    "env": {
+        "browser": true,
+        "node": true
+    },
+
+    "rules": {
+        /* Possible Errors ****************************************************/
+
+        "no-inner-declarations": 0, // disallow function or variable declarations in nested blocks
+
+        /* Best Practices *****************************************************/
+
+        "accessor-pairs": 2,             // Enforces getter/setter pairs in objects (off by default)
+        "dot-location": [2, "property"], // enforces consistent newlines before or after dots (off by default)
+        "guard-for-in": 2,               // make sure for-in loops have an if statement (off by default)
+        "no-div-regex": 2,               // disallow division operators explicitly at beginning of regular expression (off by default)
+        "no-else-return": 2,             // disallow else after a return in an if (off by default)
+        "no-floating-decimal": 2,        // disallow the use of leading or trailing decimal points in numeric literals (off by default)
+        "no-self-compare": 2,            // disallow comparisons where both sides are exactly the same (off by default)
+        "no-throw-literal": 2,           // restrict what can be thrown as an exception (off by default)
+        "radix": 2,                      // require use of the second argument for parseInt() (off by default)
+        "wrap-iife": 2,                  // require immediate function invocation to be wrapped in parentheses (off by default)
+
+        /* Strict Mode ********************************************************/
+
+        "global-strict": 0,      // (deprecated) require or disallow the "use strict" pragma in the global scope (off by default in the node environment)
+        "strict": [2, "global"], // controls location of Use Strict Directives
+
+        /* Stylistic Issues ***************************************************/
+
+        "brace-style": 2,                             // enforce one true brace style (off by default)
+        "comma-style": 2,                             // enforce one true comma style (off by default)
+        "consistent-this": [2, "self"],               // enforces consistent naming when capturing the current execution context (off by default)
+        "func-style": [2, "expression"],              // enforces use of function declarations or expressions (off by default)
+        "indent": [2, 4, {"indentSwitchCase": true}], // this option sets a specific tab width for your code (off by default)
+        "linebreak-style": 2,                         // disallow mixed 'LF' and 'CRLF' as linebreaks (off by default)
+        "newline-after-var": 2,                       // allow/disallow an empty newline after var statement (off by default)
+        "no-continue": 2,                             // disallow use of the continue statement (off by default)
+        "no-lonely-if": 2,                            // disallow if as the only statement in an else block (off by default)
+        "no-multiple-empty-lines": 2,                 // disallow multiple empty lines (off by default)
+        "no-nested-ternary": 2,                       // disallow nested ternary expressions (off by default)
+        "no-unneeded-ternary": 2,                     // disallow the use of Boolean literals in conditional expressions (off by default)
+        "object-curly-spacing": 2,                    // require or disallow padding inside curly braces (off by default)
+        "one-var": [2, "never"],                      // allow or disallow one variable declaration per function (off by default)
+        "operator-assignment": 2,                     // require assignment operator shorthand where possible or prohibit it entirely (off by default)
+        "operator-linebreak": 2,                      // enforce operators to be placed before or after line breaks (off by default)
+        "padded-blocks": [2, "never"],                // enforce padding within blocks (off by default)
+        "quotes": [2, "single"],                      // specify whether backticks, double or single quotes should be used
+        "space-after-keywords": 2,                    // require a space after certain keywords (off by default)
+        "space-before-blocks": 2,                     // require or disallow space before blocks (off by default)
+        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+                                                      // require or disallow space before function opening parenthesis (off by default)
+        "space-in-brackets": 2,                       // require or disallow spaces inside brackets (off by default)
+        "space-in-parens": 2,                         // require or disallow spaces inside parentheses (off by default)
+        "space-unary-word-ops": 0,                    // (deprecated) Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
+        "spaced-line-comment": 2,                     // require or disallow a space immediately following the // in a line comment (off by default)
+        "wrap-regex": 2,                              // require regex literals to be wrapped in parentheses (off by default)
+        no-multi-spaces: false,
+
+        /* ECMAScript 6 *******************************************************/
+
+        "generator-star-spacing": 2, // enforce the spacing around the * in generator functions (off by default)
+        "no-var": 2,                 // require let or const instead of var (off by default)
+        "object-shorthand": 2,       // require method and property shorthand syntax for object literals (off by default)
+
+        /* Legacy *************************************************************/
+
+        "no-plusplus": 2, // disallow use of unary operators, ++ and -- (off by default)
+
+        "react/display-name": 2,            // prevent missing displayName in a React component definition
+        "react/jsx-boolean-value": 2,       // enforce boolean attributes notation in JSX
+        "react/jsx-no-undef": 2,            // disallow undeclared variables in JSX
+        "react/jsx-quotes": [2, "double"],  // enforce quote style for JSX attributes
+        "react/jsx-sort-prop-types": 2,     // enforce propTypes declarations alphabetical sorting
+        "react/jsx-sort-props": 2,          // enforce props alphabetical sorting
+        "react/jsx-uses-react": 2,          // prevent React to be incorrectly marked as unused
+        "react/jsx-uses-vars": 2,           // prevent variables used in JSX to be incorrectly marked as unused
+        "react/no-did-mount-set-state": 2,  // prevent usage of setState in componentDidMount
+        "react/no-did-update-set-state": 2, // prevent usage of setState in componentDidUpdate
+        "react/no-multi-comp": 2,           // prevent multiple component definition per file
+        "react/no-unknown-property": 2,     // prevent usage of unknown DOM property
+        "react/prop-types": 2,              // prevent missing props validation in a React component definition
+        "react/react-in-jsx-scope": 2,      // prevent missing React when using JSX
+        "react/self-closing-comp": 2,       // prevent extra closing tags for components without children
+        "react/sort-comp": 2,               // enforce component methods order
+        "react/wrap-multilines": 2          // prevent missing parentheses around multilines JSX
+    }
+}

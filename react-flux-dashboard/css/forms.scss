@@ -1,0 +1,30 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    font-size: 18px;
+    font-family: $base-font;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+    content: "\00a0";
+    display: inline-block;
+    margin-right: 10px;
+
+    @include circle(25px, transparent, 1px solid $color-whiteSmoke);
+}
+
+input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #666;
+    content: "\2713";
+    text-align: center;
+}
+
+input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+}
+
+

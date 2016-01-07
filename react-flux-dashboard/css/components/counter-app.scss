@@ -1,0 +1,52 @@
+.counter-app {
+    background: #fff;
+    padding: 10px 0;
+
+    .counter-input {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+
+        .input {
+            flex-grow: 1;
+            border: none;
+            margin-right: 10px;
+            padding: 15px;
+            background: $color-whiteSmoke;
+            font-size: $base-font-size;
+        }
+
+        .add {
+            font-size: $base-font-size;
+            padding: 15px 40px;
+        }
+    }
+
+    .counter-list {
+        padding: 0 10px;
+    }
+
+    .counter-name {
+        flex-grow: 1;
+    }
+
+    .count {
+        min-width: 40px;
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .delete {
+        margin-left: 10px;
+    }
+
+    li {
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+        list-style: none;
+    }
+}
