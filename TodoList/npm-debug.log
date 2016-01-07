@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.41
+4 warn deprecated This version of npm lacks support for important features,
+5 warn deprecated such as scoped packages, offered by the primary npm
+6 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+7 warn deprecated latest stable version. To upgrade to npm@2, run:
+8 warn deprecated npm -g install npm@latest-2
+9 warn deprecated To upgrade to the latest stable version, run:
+10 warn deprecated npm -g install npm@latest
+11 warn deprecated (Depending on how Node.js was installed on your system, you
+12 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+13 warn deprecated on Windows, run them from an Administrator prompt.)
+14 warn deprecated If you're running the version of npm bundled with
+15 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+16 warn deprecated will be bundled with a version of npm@2, which has some small
+17 warn deprecated backwards-incompatible changes made to `npm run-script` and
+18 warn deprecated semver behavior.
+19 verbose run-script [ 'predev', 'dev', 'postdev' ]
+20 info predev webpack-react@1.0.0
+21 info dev webpack-react@1.0.0
+22 verbose unsafe-perm in lifecycle true
+23 info webpack-react@1.0.0 Failed to exec dev script
+24 error webpack-react@1.0.0 dev: `webpack-dev-server --devtool eval --progress --colors --hot --content-base build`
+24 error Exit status 127
+25 error Failed at the webpack-react@1.0.0 dev script.
+25 error This is most likely a problem with the webpack-react package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     webpack-dev-server --devtool eval --progress --colors --hot --content-base build
+25 error You can get their info via:
+25 error     npm owner ls webpack-react
+25 error There is likely additional logging output above.
+26 error System Linux 3.13.0-74-generic
+27 error command "/usr/local/bin/node" "/usr/local/bin/npm" "run" "dev"
+28 error cwd /home/lewis/code/TodoList
+29 error node -v v0.10.41
+30 error npm -v 1.4.29
+31 error code ELIFECYCLE
+32 verbose exit [ 1, true ]
