@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         app:path.join(__dirname, 'src'),
-        vendors: ['react']
+        vendors: ['react','reflux','react-mixin']
     },
     output: {
         path: path.join(__dirname, 'dist'),

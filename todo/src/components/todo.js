@@ -1,5 +1,6 @@
 import React from 'react'
 import Reflux from 'reflux'
+import ReactMixin from 'react-mixin'
 import store from '../stores/store'
 import actions from '../actions/actions'
 
@@ -9,15 +10,8 @@ export default class Todo extends React.Component{
     this.state = {list: []};
   }
 
-  onStatusChange (list) {
-    this.setState({list: list});
-
-  }
-
   componentDidMount() {
-    store.listen(this.onStatusChange.bind(this));
     actions.getAll();
-
   }
 
   add(){
@@ -48,3 +42,6 @@ export default class Todo extends React.Component{
     )
   }
 }
+
+// ES6 mixin写法
+ReactMixin.onClass(Todo, Reflux.connect(store));

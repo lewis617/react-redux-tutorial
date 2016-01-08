@@ -18,14 +18,14 @@ export default Reflux.createStore({
     items:[],
     listenables: [actions],
     onGetAll () {
-        this.trigger(this.items);
+        this.trigger({list:this.items});
     },
     onAdd(item){
         this.items.push({name:item});
-        this.trigger(this.items);
+        this.trigger({list:this.items});
     },
     onRemove(i){
         this.items.remove(i);
-        this.trigger(this.items);
+        this.trigger({list:this.items});
     }
 });
