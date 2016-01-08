@@ -10,7 +10,7 @@ export default Reflux.createStore({
   },
   onAdd(obj){
     if(!obj.content){
-      this.error = 'Cannot add empty string'
+      this.error = 'Cannot add empty string';
       this.trigger(this.error);
       return;
     }

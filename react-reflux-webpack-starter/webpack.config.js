@@ -28,19 +28,6 @@ module.exports = {
 				test:/\.js$/,
 				loader:"eslint-loader",
 				exclude:"/node_modules/"
-			},
-			{
-				test: /\.scss$/,
-				loaders: ['style', 'css', 'sass'],
-				include: __dirname+ 'style'
-			},
-			// USE THIS IF YOU'RE USING VANILLA CSS
-			// {
-			// 	test:/\.css$/,
-			// 	loaders:["style","css"]
-			// },
-			{test   : /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-				loader : 'file-loader'
 			}
 		]
 	}
