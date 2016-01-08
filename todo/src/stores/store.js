@@ -12,7 +12,7 @@ Array.prototype.remove=function(dx)
         }
     }
     this.length-=1
-}
+};
 
 export default Reflux.createStore({
     items:[],
