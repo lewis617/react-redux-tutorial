@@ -75,13 +75,10 @@ webpackJsonp([0],{
 	var Todo = function (_React$Component) {
 	  _inherits(Todo, _React$Component);
 
-	  function Todo(props) {
+	  function Todo() {
 	    _classCallCheck(this, Todo);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Todo).call(this, props));
-
-	    _this.state = { list: [] };
-	    return _this;
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Todo).apply(this, arguments));
 	  }
 
 	  _createClass(Todo, [{
@@ -106,6 +103,21 @@ webpackJsonp([0],{
 	    value: function render() {
 	      var _this2 = this;
 
+	      var items = undefined;
+	      if (this.state.list) {
+	        items = this.state.list.map(function (item, i) {
+	          return _react2.default.createElement(
+	            'li',
+	            { key: i },
+	            item.name,
+	            _react2.default.createElement(
+	              'button',
+	              { onClick: _this2.remove.bind(_this2, i) },
+	              'remove'
+	            )
+	          );
+	        });
+	      }
 	      return _react2.default.createElement(
 	        'div',
 	        null,
@@ -118,18 +130,7 @@ webpackJsonp([0],{
 	        _react2.default.createElement(
 	          'ul',
 	          null,
-	          this.state.list.map(function (item, i) {
-	            return _react2.default.createElement(
-	              'li',
-	              { key: i },
-	              item.name,
-	              _react2.default.createElement(
-	                'button',
-	                { onClick: _this2.remove.bind(_this2, i) },
-	                'remove'
-	              )
-	            );
-	          })
+	          items
 	        )
 	      );
 	    }

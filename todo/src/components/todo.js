@@ -5,10 +5,6 @@ import store from '../stores/store'
 import actions from '../actions/actions'
 
 export default class Todo extends React.Component{
-  constructor(props) {
-    super(props);
-    this.state = {list: []};
-  }
 
   componentDidMount() {
     actions.getAll();
@@ -26,17 +22,21 @@ export default class Todo extends React.Component{
   }
 
   render() {
+    let items;
+    if(this.state.list){
+      items=this.state.list.map( (item,i)=> {
+              return <li key={i}>
+                {item.name}
+                <button onClick={this.remove.bind(this,i)}>remove</button>
+              </li>
+            })
+    }
     return (
         <div>
           <input type="text" ref="item"/>
           <button onClick={this.add.bind(this)}>add</button>
           <ul>
-            {this.state.list.map( (item,i)=> {
-              return <li key={i}>
-                {item.name}
-                <button onClick={this.remove.bind(this,i)}>remove</button>
-              </li>
-            })}
+            {items}
           </ul>
         </div>
     )
