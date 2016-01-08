@@ -13,20 +13,24 @@ export default class Todo extends React.Component{
     this.setState({list: list});
 
   }
+
   componentDidMount() {
     store.listen(this.onStatusChange.bind(this));
     actions.getAll();
 
   }
+
   add(){
     var item =this.refs.item.value;
     this.refs.item.value='';
     actions.add(item);
 
   }
+
   remove(i){
     actions.remove(i);
   }
+
   render() {
     return (
         <div>
