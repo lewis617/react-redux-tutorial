@@ -1,0 +1,23 @@
+{
+  "name": "todo-redux",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "path": "^0.12.7",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "webpack": "^1.12.10"
+  },
+  "scripts": {
+    "build": "webpack --progress -colors --watch"
+  },
+  "author": "lewis617",
+  "license": "ISC"
+}
