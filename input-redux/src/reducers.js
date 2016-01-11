@@ -1,10 +1,4 @@
-import { combineReducers } from 'redux'
-
-const initState={value:617};
-
-function reducer(state=initState){
-  return state;
+export default function change(state,action){
+  if(action.type=="change")return{value:action.value};
+  return {value:'default'};
 }
-
-
-export default reducer

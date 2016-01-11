@@ -616,38 +616,6 @@ webpackJsonp([0],{
 
 	'use strict';
 
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRedux = __webpack_require__(168);
-
-	var _Input = __webpack_require__(178);
-
-	var _Input2 = _interopRequireDefault(_Input);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function mapStateToProps(state) {
-	  return {
-	    propsValue: state.value
-	  };
-	}
-
-	// 包装 component ，注入 dispatch 和 state 到其默认的 connect(select)(App) 中；
-	exports.default = (0, _reactRedux.connect)(mapStateToProps)(_Input2.default);
-
-/***/ },
-
-/***/ 178:
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	Object.defineProperty(exports, "__esModule", {
@@ -662,6 +630,14 @@ webpackJsonp([0],{
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
+	var _reactRedux = __webpack_require__(168);
+
+	var _actions = __webpack_require__(178);
+
+	var action = _interopRequireWildcard(_actions);
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -670,53 +646,79 @@ webpackJsonp([0],{
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Input = function (_Component) {
-	  _inherits(Input, _Component);
+	var App = function (_Component) {
+	  _inherits(App, _Component);
 
-	  function Input() {
-	    _classCallCheck(this, Input);
+	  function App() {
+	    _classCallCheck(this, App);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Input).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(App).apply(this, arguments));
 	  }
 
-	  _createClass(Input, [{
+	  _createClass(App, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement('input', { type: 'text', value: this.props.propsValue, readOnly: true })
+	        _react2.default.createElement('input', { type: 'text', value: this.props.propsValue, onChange: this.changeHandle.bind(this), ref: 'input' }),
+	        this.props.propsValue
 	      );
+	    }
+	  }, {
+	    key: 'changeHandle',
+	    value: function changeHandle() {
+	      var node = _reactDom2.default.findDOMNode(this.refs.input);
+	      var value = node.value.trim();
+	      this.props.change(value);
 	    }
 	  }]);
 
-	  return Input;
+	  return App;
 	}(_react.Component);
 
-	exports.default = Input;
+	function mapStateToProps(state) {
+	  return {
+	    propsValue: state.value
+	  };
+	}
+
+	exports.default = (0, _reactRedux.connect)(mapStateToProps, action)(App);
+
+/***/ },
+
+/***/ 178:
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.change = change;
+	//定义
+	function change(value) {
+	    return {
+	        type: "change",
+	        value: value
+	    };
+	}
 
 /***/ },
 
 /***/ 179:
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-
-	var _redux = __webpack_require__(159);
-
-	var initState = { value: 617 };
-
-	function reducer() {
-	  var state = arguments.length <= 0 || arguments[0] === undefined ? initState : arguments[0];
-
-	  return state;
+	exports.default = change;
+	function change(state, action) {
+	  if (action.type == "change") return { value: action.value };
+	  return { value: 'default' };
 	}
-
-	exports.default = reducer;
 
 /***/ }
 
