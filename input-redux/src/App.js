@@ -25,4 +25,5 @@ function mapStateToProps(state) {
   }
 }
 
+//将state的指定值映射在props上，将action的所有方法映射在props上
 export default connect(mapStateToProps,action)(App);

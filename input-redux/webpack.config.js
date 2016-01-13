@@ -23,11 +23,6 @@ module.exports = {
         ]
     },
     plugins: [
-        // kills the compilation upon an error.
-        // this keeps the outputed bundle **always** valid
-        new webpack.NoErrorsPlugin(),
-        //这个使用uglifyJs压缩你的js代码
-        //new webpack.optimize.UglifyJsPlugin({minimize: true}),
         new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js')
     ]
 };
