@@ -6,6 +6,7 @@ import actions from '../actions/actions'
 
 export default class Todo extends React.Component{
 
+  //组件渲染完成后，通过action获取所有的数组，刷新绑定到this.state上
   componentDidMount() {
     actions.getAll();
   }
@@ -22,9 +23,11 @@ export default class Todo extends React.Component{
   }
 
   render() {
+    //items用于乘放li的集合
     let items;
     if(this.state.list){
       items=this.state.list.map( (item,i)=> {
+              //设置key是因为react的diff算法，是通过key来计算最小变化的
               return <li key={i}>
                 {item.name}
                 <button onClick={this.remove.bind(this,i)}>remove</button>
@@ -43,5 +46,5 @@ export default class Todo extends React.Component{
   }
 }
 
-// ES6 mixin写法
+// ES6 mixin写法，通过mixin将store的与组件连接，功能是监听store带来的state变化并刷新到this.state
 ReactMixin.onClass(Todo, Reflux.connect(store));
