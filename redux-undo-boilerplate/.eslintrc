@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  }
+}

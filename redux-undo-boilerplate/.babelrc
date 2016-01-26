@@ -1,0 +1,32 @@
+{
+  "stage": 0,
+  "env": {
+    // this plugin will be included only in development mode, e.g.
+    // if NODE_ENV (or BABEL_ENV) environment variable is not set
+    // or is equal to "development"
+    "development/client": {
+      "plugins": [
+        // Include babel-plugin-react-display-name if you’re
+        // using React.createClass() *before* react-transform:
+        // "react-display-name",
+        "react-transform"
+      ],
+      "extra": {
+        // must be defined and be an array
+        "react-transform": {
+	  "transforms": [{
+            // can be an NPM module name or a local path
+            "transform": "react-transform-hmr",
+            // see specific transform's docs for "imports" and "locals" it needs
+            "imports": ["react"],
+            "locals": ["module"]
+          }, {
+            // you can have many transforms, not just one
+            "transform": "react-transform-catch-errors",
+            "imports": ["react", "redbox-react"]
+          }]
+	}
+      }
+    }
+  }
+}
