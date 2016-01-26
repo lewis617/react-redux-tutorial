@@ -1,9 +1,0 @@
-@mixin circle($width, $background, $border) {
-  width: $width;
-  height: $width;
-  background: $background;
-  border: $border;
-  -webkit-border-radius: $width/2;
-     -moz-border-radius: $width/2;
-          border-radius: $width/2;
-}
