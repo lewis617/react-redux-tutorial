@@ -9,4 +9,6 @@
 
 [react+redux教程（四）undo、devtools、router](http://www.cnblogs.com/lewis617/p/5161003.html)
 
+[react+redux教程（五）异步、单一state树结构、componentWillReceiveProps](http://www.cnblogs.com/lewis617/p/5170835.html)
+
 连载中……
