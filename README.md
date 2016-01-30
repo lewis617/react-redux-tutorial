@@ -8,3 +8,5 @@
 [react+redux教程（三）reduce()、filter()、map()、some()、every()、...展开属性](http://www.cnblogs.com/lewis617/p/5149006.html)
 
 [react+redux教程（四）undo、devtools、router](http://www.cnblogs.com/lewis617/p/5161003.html)
+
+连载中……
