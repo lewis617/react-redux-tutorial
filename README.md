@@ -1,5 +1,3 @@
-# myReact
-自己编写改写收藏测试的react demo
 ## React+Redux系列教程
 [react+redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware](http://www.cnblogs.com/lewis617/p/5145073.html)
 
@@ -14,5 +12,7 @@
 [react+redux教程（六）redux服务端渲染流程](http://www.cnblogs.com/lewis617/p/5174861.html)
 
 连载中……
+## React+Reflux教程
+[react+reflux入门教程](http://www.cnblogs.com/lewis617/p/5129609.html)
 
 ### 如果您觉得本程序或者博客帮到了您，请加个星
