@@ -18,14 +18,14 @@ export function invalidateReddit(reddit) {
     reddit
   }
 }
-//开始获取action
+//开始获取新闻action
 function requestPosts(reddit) {
   return {
     type: REQUEST_POSTS,
     reddit
   }
 }
-//获取成功的action
+//获取新闻成功的action
 function receivePosts(reddit, json) {
   return {
     type: RECEIVE_POSTS,
@@ -35,7 +35,7 @@ function receivePosts(reddit, json) {
   }
 }
 
-//获取文章，先触发开始获取action，完成后触发获取成功的action
+//获取文章，先触发requestPosts开始获取action，完成后触发receivePosts获取成功的action
 function fetchPosts(reddit) {
   return dispatch => {
     dispatch(requestPosts(reddit))
