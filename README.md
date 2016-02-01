@@ -11,4 +11,6 @@
 
 [react+redux教程（五）异步、单一state树结构、componentWillReceiveProps](http://www.cnblogs.com/lewis617/p/5170835.html)
 
+[react+redux教程（六）redux服务端渲染流程](http://www.cnblogs.com/lewis617/p/5174861.html)
+
 连载中……
