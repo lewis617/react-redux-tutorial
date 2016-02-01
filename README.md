@@ -14,3 +14,5 @@
 [react+redux教程（六）redux服务端渲染流程](http://www.cnblogs.com/lewis617/p/5174861.html)
 
 连载中……
+
+### 如果您觉得本程序或者博客帮到了您，请加个星
