@@ -15,4 +15,4 @@
 ## React+Reflux教程
 [react+reflux入门教程](http://www.cnblogs.com/lewis617/p/5129609.html)
 
-### 如果您觉得本程序或者博客帮到了您，请赏颗星
+*如果您觉得本程序或者博客帮到了您，就赏颗星吧！*
