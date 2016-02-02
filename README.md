@@ -11,6 +11,8 @@
 
 [react+redux教程（六）redux服务端渲染流程](http://www.cnblogs.com/lewis617/p/5174861.html)
 
+[react+redux教程（七）自定义redux中间件](http://www.cnblogs.com/lewis617/p/5177852.html)
+
 连载中……
 ## React+Reflux教程
 [react+reflux入门教程](http://www.cnblogs.com/lewis617/p/5129609.html)
