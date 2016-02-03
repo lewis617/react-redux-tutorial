@@ -1,10 +1,6 @@
 import { combineReducers } from 'redux'
 import { ADD_TODO_OK, REMOVE_TODO_OK ,GET_TODO_OK} from './actions'
 
-function wilddog(state = null) {
-  return state;
-}
-
 function todos(state=[], action) {
   switch (action.type) {
     case GET_TODO_OK:
@@ -23,7 +19,6 @@ function todos(state=[], action) {
 }
 
 const todoApp = combineReducers({
-  wilddog,
   todos
 })
 
