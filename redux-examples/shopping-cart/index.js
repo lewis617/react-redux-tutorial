@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { createStore, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware,compose } from 'redux'
 import { Provider } from 'react-redux'
 import logger from 'redux-logger'
 import thunk from 'redux-thunk'
@@ -12,7 +12,8 @@ const middleware = process.env.NODE_ENV === 'production' ?
   [ thunk ] :
   [ thunk, logger() ]
 
-const createStoreWithMiddleware = applyMiddleware(...middleware)(createStore)
+const createStoreWithMiddleware = compose(applyMiddleware(...middleware),
+    window.devToolsExtension ? window.devToolsExtension() : f => f)(createStore)
 const store = createStoreWithMiddleware(reducer)
 
 store.dispatch(getAllProducts())
