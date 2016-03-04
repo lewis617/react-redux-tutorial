@@ -18,4 +18,7 @@
 ## React+Reflux教程
 [react+reflux入门教程](http://www.cnblogs.com/lewis617/p/5129609.html)
 
+## Angular2教程
+[Angular2教程](https://github.com/lewis617/angular2-tutorial)
+
 *如果您觉得本程序或者博客帮到了您，就赏颗星吧！*
