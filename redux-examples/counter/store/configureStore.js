@@ -3,7 +3,7 @@ import thunk from 'redux-thunk'
 import reducer from '../reducers'
 
 //applyMiddleware来自redux可以包装 store 的 dispatch
-//thunk作用是使被 dispatch 的 function 会接收 dispatch 作为参数，并且可以异步调用它
+//thunk作用是使action创建函数可以返回一个function代替一个action对象
 const createStoreWithMiddleware = compose(
     applyMiddleware(
         thunk
