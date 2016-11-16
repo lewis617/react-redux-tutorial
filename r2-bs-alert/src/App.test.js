@@ -4,7 +4,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import App from './App';
-import { reducer as alertsReducer, alertMessage } from './alert';
+import { reducer as alertsReducer } from './alert';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const store = createStore(
