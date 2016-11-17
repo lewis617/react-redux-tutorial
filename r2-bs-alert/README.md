@@ -7,6 +7,7 @@
 
 这个例子实现了弹出不同类型信息的功能，这些信息默认会在5秒后消失，你也可以手动点击使其消失。如果你在服务端有信息要提示，还可以通过 Redux 的单一数据源传到客户端在渲染页面时显示出来。
 
+![](https://raw.githubusercontent.com/lewis617/react-redux-tutorial/master/r2-bs-alert/public/r2-bs-alert.gif)
 
 源代码：
 
