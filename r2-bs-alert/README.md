@@ -148,6 +148,7 @@ export function hideAllAlert(delay = 5000) {
 尽管部分逻辑有点复杂，但都封装在 action 创建函数中了，多么清晰和模块化！接下来，我们编写 reducer 来根据这些 action，进行 state 的更新。
 src/alert/redux.js
 
+```js
 export default function (state = { lastKey: -1, items: [] }, action) {
   switch (action.type) {
     case ALERT_SHOW:
@@ -165,6 +166,8 @@ export default function (state = { lastKey: -1, items: [] }, action) {
       return state;
   }
 }
+```
+
 这里使用了解构赋值和重写的语法来保证 state 的不可变（Immutable）。
 
 >Redux 的 state 要求是不可变数据，这么做的原因是方便进行快速变更检查，进而有利于React组件判断是否需要重新渲染（re-render）。另外，不可变数据还有利于进行状态回退，错误追踪。不可变数据是函数式编程中一个常用的概念。关于不可变以及函数式编程在 React 与 Redux 中的应用，《React与Redux开发实例精解》这本书中有非常详细的介绍，推荐阅读参考。
