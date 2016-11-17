@@ -1,5 +1,5 @@
 
-# 使用 React、Redux 和 Bootstrap 实现Alert
+# 使用 React、Redux 和 Bootstrap 实现 Alert
 
 今天，我们来学习使用 React、Redux 和 Bootstrap 实现Alert。
 
@@ -277,10 +277,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 至此，所有功能就都实现了！在后续的文章中，我们将介绍如何测试本例编写的 Redux 函数以及 React 组件。要知道，写测试是一个工程师走向成熟的必经之路，而且在 React 与 Redux 的应用中编写测试简直太方便了！
 
-总结
+## 总结
 
  - Redux 适合实现全局性的组件和功能，一些局部使用的功能使用 React 的局部状态即可。  
  - 推荐使用 create-react-app 来快速搭建React应用。
  -  Redux 的 action 创建函数与要实现的功能一一对应。  
  - Redux 的 state 为不可变数据。
  - 使用 react-redux 的 connect 将 Redux 的 state 和 action 创建函数连接到组件，进而渲染界面，绑定事件。
+
+
+## 教程源代码及目录
+
+如果您觉得本博客教程帮到了您，就赏颗星吧！
+
+[https://github.com/lewis617/react-redux-tutorial](https://github.com/lewis617/react-redux-tutorial)
