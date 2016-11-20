@@ -17,7 +17,7 @@
 
  [React与Redux教程（八）连接数据库的Redux程序](https://lewis617.github.io/2016/02/03/r2-database/)
 
- [React与Redux教程（八）使用 React、Redux 和 Bootstrap 实现 Alert](https://lewis617.github.io/2016/11/16/r2-bs-alert/)
+ [React与Redux教程（九）使用 React、Redux 和 Bootstrap 实现 Alert](https://lewis617.github.io/2016/11/16/r2-bs-alert/)
 
 ## React+Reflux教程
 
