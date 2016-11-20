@@ -1,27 +1,30 @@
 
 ## React+Redux系列教程
-[react+redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware](http://www.cnblogs.com/lewis617/p/5145073.html)
 
-[react+redux教程（二）redux的单一状态树完全替代了react的状态机？](http://www.cnblogs.com/lewis617/p/5147445.html)
+ [React与Redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware](https://lewis617.github.io/2016/01/19/r2-counter/)
+ 
+ [React与Redux教程（二）Redux的单一状态树完全替代了React的状态机？](https://lewis617.github.io/2016/01/20/r2-state/)
+ 
+ [React与Redux教程（三）reduce()、filter()、map()、some()、every()、...展开属性](https://lewis617.github.io/2016/01/21/r2-array/)
+ 
+ [React与Redux教程（四）undo、devtools、router](https://lewis617.github.io/2016/01/26/r2-undo/)
 
-[react+redux教程（三）reduce()、filter()、map()、some()、every()、...展开属性](http://www.cnblogs.com/lewis617/p/5149006.html)
+ [React与Redux教程（五）异步、单一state树结构、componentWillReceiveProps](https://lewis617.github.io/2016/01/29/r2-async/)
 
-[react+redux教程（四）undo、devtools、router](http://www.cnblogs.com/lewis617/p/5161003.html)
+ [React与Redux教程（六）redux服务端渲染流程](https://lewis617.github.io/2016/01/31/r2-ssr/)
 
-[react+redux教程（五）异步、单一state树结构、componentWillReceiveProps](http://www.cnblogs.com/lewis617/p/5170835.html)
+ [React与Redux教程（七）自定义Redux中间件](https://lewis617.github.io/2016/02/02/r2-middleware/)
 
-[react+redux教程（六）redux服务端渲染流程](http://www.cnblogs.com/lewis617/p/5174861.html)
+ [React与Redux教程（八）连接数据库的Redux程序](https://lewis617.github.io/2016/02/03/r2-database/)
 
-[react+redux教程（七）自定义redux中间件](http://www.cnblogs.com/lewis617/p/5177852.html)
-
-[react+redux教程（八）连接数据库的redux程序](http://www.cnblogs.com/lewis617/p/5180097.html)
-
-[react+redux教程（九）使用 React、Redux 和 Bootstrap 实现 Alert](https://zhuanlan.zhihu.com/p/23717533)
+ [React与Redux教程（八）使用 React、Redux 和 Bootstrap 实现 Alert](https://lewis617.github.io/2016/11/16/r2-bs-alert/)
 
 ## React+Reflux教程
-[react+reflux入门教程](http://www.cnblogs.com/lewis617/p/5129609.html)
+
+[React+Reflux入门教程](https://lewis617.github.io/2016/01/13/react-reflux/)
 
 ## Angular2教程
+
 [Angular2教程](https://github.com/lewis617/angular2-tutorial)
 
 ##《React 与 Redux 开发实例精解》
