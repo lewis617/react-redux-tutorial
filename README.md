@@ -31,6 +31,6 @@
 
 [Angular2教程](https://github.com/lewis617/angular2-tutorial)
 
-##《React 与 Redux 开发实例精解》出版了！
+---
 
-[《React 与 Redux 开发实例精解》出版了！](https://lewis617.github.io/2016/11/20/r2-book/)
+欢迎关注我的[微博](http://www.weibo.com/u/2207255374)和[博客](https://lewis617.github.io/)，一起探讨技术，共同进步！
