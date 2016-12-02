@@ -21,6 +21,8 @@
 
  [使用 React、Redux 和 Bootstrap 实现 Alert](https://lewis617.github.io/2016/11/16/r2-bs-alert/)
  
+ [使用 React、Redux 和 Bootstrap 实现 Alert（测试篇）](https://lewis617.github.io/2016/11/17/r2-bs-alert-test/)
+ 
  [React 与 Redux 在生产环境中的实践总结](https://lewis617.github.io/2016/11/26/opendata/)
  
  [用更少的代码发起异步action（博主推荐）](https://lewis617.github.io/2016/11/30/redux-amrc/)
