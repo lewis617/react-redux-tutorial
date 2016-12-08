@@ -26,6 +26,8 @@
  [React 与 Redux 在生产环境中的实践总结](https://lewis617.github.io/2016/11/26/opendata/)
  
  [用更少的代码发起异步action（博主推荐）](https://lewis617.github.io/2016/11/30/redux-amrc/)
+ 
+ [RxJS + Redux + React = Amazing!（听译一）](https://lewis617.github.io/2016/12/08/rxjs-redux-react-amazing-1/)
 
 ## React+Reflux教程
 
