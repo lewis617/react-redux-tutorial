@@ -1,5 +1,5 @@
 
-想第一时间获取我写的最新的文章，可以关注[我的微博](http://www.weibo.com/lewis617)。也欢迎买我的新书——[《React与Redux开发实例精解》](https://lewis617.github.io/2016/11/20/r2-book/)。
+想第一时间获取我写的最新文章，可以关注[我的微博](http://www.weibo.com/lewis617)。也欢迎买我的新书——[《React与Redux开发实例精解》](https://lewis617.github.io/2016/11/20/r2-book/)。
 
 ## React+Redux系列教程
 
