@@ -1,3 +1,5 @@
+> 这套教程是抱着社区志愿者心态写的，虽然篇幅不少，但不够系统。推荐看我的新书[《React与Redux开发实例精解》](https://lewis617.github.io/2016/11/20/r2-book/)，干得一点水分都没有！
+
 ## React+Redux系列教程
 
  [React与Redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware](https://lewis617.github.io/2016/01/19/r2-counter/)
