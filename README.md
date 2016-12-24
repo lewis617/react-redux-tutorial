@@ -1,4 +1,4 @@
-> 这套教程写于2016年1月，是以社区志愿者心态写的，虽然篇幅不少，但既无基础讲解，也无项目实战，有点“前不着村后不着店”，想系统学习React/Redux/Node技术栈的同学可以看我的新书[《React与Redux开发实例精解》](https://lewis617.github.io/2016/11/20/r2-book/)，不仅内容更加系统严谨，而且穿插了大量拓展性知识介绍，推荐阅读参考！
+> 公告：[《React与Redux开发实例精解》出版了！](https://lewis617.github.io/2016/11/20/r2-book/)
 
 ## React+Redux系列教程
 
@@ -23,8 +23,6 @@
  [使用 React、Redux 和 Bootstrap 实现 Alert](https://lewis617.github.io/2016/11/16/r2-bs-alert/)
  
  [使用 React、Redux 和 Bootstrap 实现 Alert（测试篇）](https://lewis617.github.io/2016/11/17/r2-bs-alert-test/)
- 
- [《React 与 Redux 开发实例精解》出版了！](https://lewis617.github.io/2016/11/20/r2-book/)
  
  [React 与 Redux 在生产环境中的实践总结](https://lewis617.github.io/2016/11/26/opendata/)
  
