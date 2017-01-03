@@ -17,7 +17,9 @@
  [React与Redux教程（七）自定义Redux中间件](https://lewis617.github.io/2016/02/02/r2-middleware/)
 
  [React与Redux教程（八）连接数据库的Redux程序](https://lewis617.github.io/2016/02/03/r2-database/)
-
+ 
+ > 本博客教程是2016年1月以社区志愿者心态写的，想系统性学习React与Redux的同学，推荐阅读参考《React与Redux开发实例精解》这本书，质量比博客教程高太多，而且比同类书籍更加详细（看目录就知道了）。
+ 
 ## React+Redux系列教程（续）
  
  [用更少的代码发起异步action（博主推荐）](https://lewis617.github.io/2016/11/30/redux-amrc/)
