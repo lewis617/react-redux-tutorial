@@ -19,10 +19,6 @@
  [React与Redux教程（八）连接数据库的Redux程序](https://lewis617.github.io/2016/02/03/r2-database/)
 
 ## React+Redux系列教程（续）
-
- [使用 React、Redux 和 Bootstrap 实现 Alert](https://lewis617.github.io/2016/11/16/r2-bs-alert/)
- 
- [使用 React、Redux 和 Bootstrap 实现 Alert（测试篇）](https://lewis617.github.io/2016/11/17/r2-bs-alert-test/)
  
  [用更少的代码发起异步action（博主推荐）](https://lewis617.github.io/2016/11/30/redux-amrc/)
  
