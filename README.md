@@ -26,10 +26,8 @@
   
  [RxJS + Redux + React = Amazing!（译二）](https://lewis617.github.io/2016/12/09/rxjs-redux-react-amazing-2/)
 
-## React+Reflux教程
-
-[React+Reflux入门教程](https://lewis617.github.io/2016/01/13/react-reflux/)
-
-## Angular2教程
+## 其他教程
 
 [Angular2教程](https://github.com/lewis617/angular2-tutorial)
+
+[JavaScript 版数据结构与算法](https://github.com/lewis617/javascript-datastructures-algorithms)
