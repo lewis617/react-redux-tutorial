@@ -28,6 +28,6 @@
 
 ## 其他教程
 
-### [Angular2教程](https://github.com/lewis617/angular2-tutorial)
+[Angular2教程](https://github.com/lewis617/angular2-tutorial)
 
-### [JavaScript 版数据结构与算法](https://github.com/lewis617/javascript-datastructures-algorithms)
+[JavaScript 版数据结构与算法](https://github.com/lewis617/javascript-datastructures-algorithms)
