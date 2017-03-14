@@ -26,7 +26,7 @@
   
  [RxJS + Redux + React = Amazing!（译二）](https://lewis617.github.io/2016/12/09/rxjs-redux-react-amazing-2/)
 
-## 其他教程
+## 其他技术博客
 
 [Angular2教程](https://github.com/lewis617/angular2-tutorial)
 
