@@ -1,5 +1,3 @@
-> 公告：[《React与Redux开发实例精解》出版了！](https://lewis617.github.io/2016/11/20/r2-book/)
-
 ## React+Redux系列教程
 
  [React与Redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware](https://lewis617.github.io/2016/01/19/r2-counter/)
