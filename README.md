@@ -23,3 +23,5 @@
  [RxJS + Redux + React = Amazing!（译一）](http://liuyiqi.cn/2016/12/08/rxjs-redux-react-amazing-1/)
   
  [RxJS + Redux + React = Amazing!（译二）](http://liuyiqi.cn/2016/12/09/rxjs-redux-react-amazing-2/)
+ 
+ [使用 render-react-components 来单独渲染每个 React 组件（博主推荐）](http://liuyiqi.cn/2018/04/13/render-react-components/)
