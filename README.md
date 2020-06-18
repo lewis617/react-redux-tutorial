@@ -1,3 +1,12 @@
+## 精品视频课程
+
+[《Node.js仿知乎服务端-深入理解RESTful API》](https://coding.imooc.com/class/354.html)
+
+[《JS 玩转机器学习-打造你人生中的第一个AI项目》](https://coding.imooc.com/class/408.html)
+
+[《JS 版数据结构与算法-轻松解决前端算法面试》](https://coding.imooc.com/class/446.html)
+
+
 ## React+Redux系列教程
 
  [React与Redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware](http://liuyiqi.cn/2016/01/19/r2-counter/)
